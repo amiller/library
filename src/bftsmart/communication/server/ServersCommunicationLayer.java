@@ -79,8 +79,9 @@ public class ServersCommunicationLayer extends Thread {
             }
         }
 
-        serverSocket = new ServerSocket(controller.getStaticConf().getServerToServerPort(
-                controller.getStaticConf().getProcessId()));
+	int port = 1000+ /* hack from amiller! 2015-10-23 */controller.getStaticConf().getServerToServerPort(controller.getStaticConf().getProcessId());
+	System.out.println("Listening: port " + port);
+        serverSocket = new ServerSocket(port);
 
         SecretKeyFactory fac = SecretKeyFactory.getInstance("PBEWithMD5AndDES");
         PBEKeySpec spec = new PBEKeySpec(PASSWORD.toCharArray());
