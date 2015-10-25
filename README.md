@@ -1,4 +1,4 @@
-Illustration of a timing bug in BFT-SMaRt
+Illustration of a potential timing bug in BFT-SMaRt
 ========
 Andrew Miller
 
