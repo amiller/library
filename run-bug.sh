@@ -1,5 +1,21 @@
 #!/bin/bash
 
+# Run one of the BFT-SMaRt provided examples
+# Also includes an adversarial scheduler in python
+# Uses tmux to display several windows
+# 
+# +--------------------------+
+# |        |        |        |
+# |        |        |        |
+# | node0  | node1  | router |
+# |________|________|________| 
+# |        |        |        |
+# |        |        |        |
+# | node2  | node3  | client |
+# |        |        |        |
+# +--------------------------+ 
+#
+
 rm files/* data*/config/currentView
 
 tmux new-session    'runscripts/smartrun.sh bftsmart.demo.counter.CounterServer 0' \;  \
