@@ -12,6 +12,9 @@ The following test script launches 4 nodes, (configuration: N=4, F=1), a client,
 $ ./run-test.sh 
 ```
 
+<img src="http://i.imgur.com/1hh1Nc1.png">
+
+
 The schedule that triggers a bug
 --------------------
 In this demonstration, the initial leader is node `0`, and the faulty node is node `1`.
