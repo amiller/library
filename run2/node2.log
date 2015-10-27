@@ -1,0 +1,58 @@
+#Using view stored on disk
+Listening: port 12021
+#Bound to port 11020
+#myId 2
+#n 4
+#f 1
+#requestTimeout= 30000
+#maxBatch= 400
+#Using MACs = 1
+#Using Signatures = 0
+In current view: ID:0; F:1; Processes:0(/127.0.0.1:11000),1(/127.0.0.1:11010),2(/127.0.0.1:11020),3(/127.0.0.1:11030),
+getState called
+log last consensus di: 0
+#Diffie-Hellman complete with 3
+#Diffie-Hellman complete with 1
+#Diffie-Hellman complete with 0
+QUORUM OF REPLICAS REPLIED WITH EID -1
+(DeliveryThread.run) Retrieving State.
+(DeliveryThread.run) canDeliver released.
+Session Created, active clients=0
+(1 / 0) Counter was incremented: 1
+(2 / 1) Counter was incremented: 2
+(3 / 2) Counter was incremented: 3
+(4 / 3) Counter was incremented: 4
+(5 / 4) Counter was incremented: 5
+(6 / 5) Counter was incremented: 6
+(7 / 6) Counter was incremented: 7
+(8 / 7) Counter was incremented: 8
+(9 / 8) Counter was incremented: 9
+(10 / 9) Counter was incremented: 10
+#Removing client channel with ID= 0
+#active clients=0
+Session Created, active clients=0
+(11 / 10) Counter was incremented: 11
+(12 / 11) Counter was incremented: 12
+(13 / 12) Counter was incremented: 13
+(14 / 13) Counter was incremented: 14
+(15 / 14) Counter was incremented: 15
+(16 / 15) Counter was incremented: 16
+(17 / 16) Counter was incremented: 17
+(18 / 17) Counter was incremented: 18
+(19 / 18) Counter was incremented: 19
+(20 / 19) Counter was incremented: 20
+#Removing client channel with ID= 0
+#active clients=0
+Session Created, active clients=0
+(21 / 20) Counter was incremented: 21
+(22 / 21) Counter was incremented: 22
+(23 / 22) Counter was incremented: 23
+(24 / 23) Counter was incremented: 24
+(25 / 24) Counter was incremented: 25
+(26 / 25) Counter was incremented: 26
+(27 / 26) Counter was incremented: 27
+(28 / 27) Counter was incremented: 28
+(29 / 28) Counter was incremented: 29
+(30 / 29) Counter was incremented: 30
+#Removing client channel with ID= 0
+#active clients=0

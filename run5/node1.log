@@ -1,0 +1,68 @@
+#Using view stored on disk
+Listening: port 12011
+#Bound to port 11010
+#myId 1
+#n 4
+#f 1
+#requestTimeout= 30000
+#maxBatch= 400
+#Using MACs = 1
+#Using Signatures = 0
+In current view: ID:0; F:1; Processes:0(/127.0.0.1:11000),1(/127.0.0.1:11010),2(/127.0.0.1:11020),3(/127.0.0.1:11030),
+getState called
+log last consensus di: 0
+#Diffie-Hellman complete with 3
+#Diffie-Hellman complete with 0
+#Diffie-Hellman complete with 2
+QUORUM OF REPLICAS REPLIED WITH EID -1
+(DeliveryThread.run) Retrieving State.
+(DeliveryThread.run) canDeliver released.
+Session Created, active clients=0
+(1 / 0) Counter was incremented: 1
+(2 / 1) Counter was incremented: 2
+(3 / 2) Counter was incremented: 3
+(4 / 3) Counter was incremented: 4
+(5 / 4) Counter was incremented: 5
+(6 / 5) Counter was incremented: 6
+(7 / 6) Counter was incremented: 7
+(8 / 7) Counter was incremented: 8
+(9 / 8) Counter was incremented: 9
+(10 / 9) Counter was incremented: 10
+#Removing client channel with ID= 0
+#active clients=0
+Session Created, active clients=0
+(MessageHandler.processData) LC_MSG received: type LOCAL, regency -1, (replica -1)
+#Removing client channel with ID= 0
+#active clients=0
+(MessageHandler.processData) LC_MSG received: type LOCAL, regency -1, (replica -1)
+Timeout for messages: [(0,0,0,1715860692)]
+(MessageHandler.processData) LC_MSG received: type STOP, regency 1, (replica 2)
+(MessageHandler.processData) LC_MSG received: type STOP, regency 1, (replica 3)
+(MessageHandler.processData) LC_MSG received: type STOPDATA, regency 1, (replica 2)
+(MessageHandler.processData) LC_MSG received: type STOPDATA, regency 1, (replica 3)
+Prova em MACs!
+Prova em MACs!
+Prova em MACs!
+teste: -1 != -1 null != null
+conta: 3 >= 3
+Prova em MACs!
+Prova em MACs!
+Prova em MACs!
+teste: -1 != -1 null != null
+conta: 3 >= 3
+Prova em MACs!
+Prova em MACs!
+Prova em MACs!
+teste: -1 != -1 null != null
+conta: 3 >= 3
+Session Created, active clients=0
+(MessageHandler.processData) LC_MSG received: type LOCAL, regency -1, (replica -1)
+Timeout for messages: [(0,0,0,1715860692)]
+#Removing client channel with ID= 0
+#active clients=0
+Session Created, active clients=0
+#Removing client channel with ID= 0
+#active clients=0
+Session Created, active clients=0
+#Removing client channel with ID= 0
+#active clients=0

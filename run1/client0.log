@@ -1,0 +1,84 @@
+Connecting to replica 0 at /127.0.0.1:11000
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Channel active
+Connecting to replica 2 at /127.0.0.1:11020
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Counter sending: 0
+Counter value: 1
+Counter sending: 1
+Counter value: 2
+Counter sending: 2
+Counter value: 3
+Counter sending: 3
+Counter value: 4
+Counter sending: 4
+Counter value: 5
+Counter sending: 5
+Counter value: 6
+Counter sending: 6
+Counter value: 7
+Counter sending: 7
+Counter value: 8
+Counter sending: 8
+Counter value: 9
+Counter sending: 9
+Counter value: 10
+Connecting to replica 0 at /127.0.0.1:11000
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Channel active
+Connecting to replica 2 at /127.0.0.1:11020
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Counter sending: 0
+Counter value: 11
+Counter sending: 1
+Counter value: 12
+Counter sending: 2
+Counter value: 13
+Counter sending: 3
+Counter value: 14
+Counter sending: 4
+Counter value: 15
+Counter sending: 5
+Counter value: 16
+Counter sending: 6
+Counter value: 17
+Counter sending: 7
+Counter value: 18
+Counter sending: 8
+Counter value: 19
+Counter sending: 9
+Counter value: 20
+Connecting to replica 0 at /127.0.0.1:11000
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Channel active
+Connecting to replica 2 at /127.0.0.1:11020
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Counter sending: 0
+Counter value: 21
+Counter sending: 1
+Counter value: 22
+Counter sending: 2
+Counter value: 23
+Counter sending: 3
+Counter value: 24
+Counter sending: 4
+Counter value: 25
+Counter sending: 5
+Counter value: 26
+Counter sending: 6
+Counter value: 27
+Counter sending: 7
+Counter value: 28
+Counter sending: 8
+Counter value: 29
+Counter sending: 9
+Counter value: 30

@@ -81,7 +81,7 @@ def router(rd_sock, wr_sock, src, tgt):
         if COMMAND[0] == 'INTERFERE':
             leader, states = COMMAND[1]
             if len(s) == 172:
-                #print 'I suspect a view change from', src, tgt
+                print 'I suspect a view change from', src, tgt
                 newstate = set(states)
                 if (src,tgt) in newstate: newstate.remove((src,tgt))
                 newstate = tuple(newstate)
@@ -93,9 +93,17 @@ def router(rd_sock, wr_sock, src, tgt):
                     followers = set(range(4)).difference((newleader,))
                     #COMMAND = 'INTERFERE', ((leader+1)%4, tuple(allpairs(followers)))
                     #print 'new leader:', newleader, COMMAND
-                    #continue
-                    COMMAND = 'SOME', (0,2,3)
-                    print '[T+  80] Now routing all traffic between (0,2,3)'
+                    #co0tinue
+                    #COMMAND = 'SOME', (0,2,3)
+                    if 0: # Run 3
+                        COMMAND = 'SOME', (1,2,3)
+                        print '[T+  80] Run 3: Leader is still partitioned'
+                    if 0: # Run 4
+                        COMMAND = 'SOME', (0,1,2,3)
+                        print '[T+  80] Run 4: Healing all partitions, ordinary network resumed'
+                    if 1: # Run 5
+                        COMMAND = 'SOME', (0,2,3)
+                        print '[T+  80] Run 5: Now routing all traffic between (0,2,3)'
                     continue
                 else:
                     COMMAND = 'INTERFERE', (leader, newstate)
